@@ -5,14 +5,19 @@
 }
 :root{
     --color_rose:#E71D36;
+    --color_white: white;
+    --color_blue:#2EC4B6;
+    --color_jaune:#FF9F1C;
+    --font:font-family: "Quicksand", sans-serif;
 }
+
+
 .conteiner{
     height: 90vh;
     width: 100%;
     background-image: url(./image/acceuille.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: row;
+   
 }
 
 .logo{
@@ -20,13 +25,40 @@
     margin: 1vh;
     margin-left:40px;
     color:var(--color_rose);
+
+}
+.logo1{
+    font-size: 60px;
+    color:var(--color_rose);
 }
 
 nav a{
     text-decoration: none;
     font-size: 30px;
-    color: white;
+    color: var(--color_white);
     margin: 27PX;
     margin-top: auto;
     line-height: 8vh;
+}
+.entete{
+    display: flex;
+    flex-direction: row;
+}
+.consigne{
+ margin: 200px;
+ padding: 10px;
+
+}
+p{
+    color: var(--color_white);
+    margin-top: 4vh;
+}
+
+.button{
+ background-color:var(--color_blue);
+ margin-top: 4vh;
+ height: 40px;
+ width: 140px;
+ border: none;
+ border-radius: 40px;
 }
