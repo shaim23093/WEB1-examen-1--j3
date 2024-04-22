@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-image: url(./image/How\ to\ build\ a\ Propane\ Fire\ Pit_\ \ Step\ by\ Step\ with\ air\ mixer\ and\ valve_.jfif);
+    background-attachment: fixed;
+    background-size: cover;
 }
 :root{
     --color_rose:#E71D36;
     --color_white: white;
     --color_blue:#2EC4B6;
     --color_jaune:#FF9F1C;
-    --font:font-family: "Quicksand", sans-serif;
+    --color_noir:black;
 }
 
 
@@ -17,7 +23,6 @@
     width: 100%;
     background-image: url(./image/acceuille.jpg);
     background-size: cover;
-   
 }
 
 .logo{
@@ -25,32 +30,40 @@
     margin: 1vh;
     margin-left:40px;
     color:var(--color_rose);
-
+    font-family: "Quicksand", sans-serif;
+    
 }
 .logo1{
     font-size: 60px;
     color:var(--color_rose);
+    font-family: "Quicksand", sans-serif;
 }
 
 nav a{
     text-decoration: none;
     font-size: 30px;
     color: var(--color_white);
-    margin: 27PX;
+    margin: 70PX;
     line-height: 12vh;
+    font-family: "Quicksand", sans-serif;
+  
 }
 .entete{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .consigne{
- margin: 200px;
- padding: 10px;
+ margin: 150px;
+ padding: 160px;
+ font-family: "Quicksand", sans-serif;
+ margin-top: 4px;
 
 }
 p{
     color: var(--color_white);
     margin-top: 4vh;
+    font-family: "Quicksand", sans-serif;
 }
 
 .button{
@@ -60,4 +73,28 @@ p{
  width: 140px;
  border: none;
  border-radius: 40px;
+ font-family: "Quicksand", sans-serif;
+}
+.image_prim{
+    width: 400px;
+    height: 400px;
+    background-color: var(--color_rose);
+    margin: 70px;
+    border-radius: 40px;
+
+}
+.legend{
+    height: 400px;
+    width: 50%;
+    background-color: var(--color_rose);
+    border-radius: 40px;
+    margin: 70px;
+}
+.section_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tire_body{
+    
 }
