@@ -153,10 +153,25 @@ p{
     background-image: url(./image/En\ pleine\ détention\ suite\ à\ sa\ bagarre\ avec\ Kaaris\,\ Booba\ reçoit\ un\ soutien\ de\ taille\ !.jfif);
     background-size: cover;
 }
-.imag_exemple_1 p{
-    margin: 40px;
+.comment_image_1{
+    background-color: var(--color_rose);
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    opacity: 0.7;
     
 }
+      
+.titre_comment_image_1{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.comment_image_1 p{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
 .imag_exemple_2{
     height: 400px;
     width: 400px;
