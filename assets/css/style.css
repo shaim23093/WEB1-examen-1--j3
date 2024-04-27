@@ -147,7 +147,6 @@ p{
 .imag_exemple_1{
     height: 400px;
     width: 400px;
-    background-color: var(--color_blue);
     border-radius: 40px;
     margin-block: 8vh;
     background-image: url(./image/En\ pleine\ détention\ suite\ à\ sa\ bagarre\ avec\ Kaaris\,\ Booba\ reçoit\ un\ soutien\ de\ taille\ !.jfif);
@@ -196,5 +195,93 @@ p{
 }
 .imag_exemple_3 p{
     margin: 40px;
+    
+}
+
+@media screen and (max-width:412px) {
+    .conteiner{
+        height: 90vh;
+        width: 419px;
+        
+    }
+    .entete{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    nav a{
+        margin: 70PX;
+      
+    }
+    
+    .logo{
+    margin: 1vh;
+    margin-left: 18px;
+    }
+    .logo1{
+      display: none;
+    }
+    .consigne{
+        margin: 0;
+        padding: 15px;
+        margin-left: 40px;
+       
+    }
+    .button{
+        margin-top: 3vh;
+        margin-left: 100px;
+       
+      
+    
+       }
+    .section_body{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .image_prim{
+        width: 370px;
+        height: 400px;
+        margin: 30px;
+    }
+    .ilustration_image{
+        width: 370px;
+        height: 400px;
+        margin: 30px;
+    }
+    
+    .button_body{
+    margin-left: 110px;
+    }
+    .exemple_body{
+        width: 420px;
+        height: 236vh;
+     
+    }
+    .imag_exemple{
+        display: flex;
+        flex-direction: column;
+    }
+    .imag_exemple_1{
+        height: 370px;
+        width: 370px;
+        margin-block: 8vh;
+        margin-left: 25px;
+       
+    }
+    .imag_exemple_2{
+        height: 370px;
+        width: 370px;
+        margin-block: 8vh;
+        margin-left: 25px;
+       
+    }
+    .imag_exemple_3{
+        height: 370px;
+        width: 370px;
+        margin-block: 8vh;
+        margin-left: 25px;
+       
+    }
     
 }
