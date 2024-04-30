@@ -143,6 +143,8 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    
 }
 .imag_exemple_1{
     height: 400px;
@@ -194,6 +196,45 @@ p{
     background-size: cover;
 }
 .imag_exemple_3 p{
+    margin: 40px;
+    
+}
+.imag_exemple_4{
+    height: 400px;
+    width: 400px;
+    background-color: var(--color_blue);
+    border-radius: 40px;
+    margin-block: 8vh;
+    background-image: url(./image/21\ Cute\ Facts\ You\ Really\ Ought\ To\ Know\ About\ Ed\ Sheeran.jfif);
+    background-size: cover;
+}
+.imag_exemple_4 p{
+    margin: 40px;
+    
+}
+.imag_exemple_5{
+    height: 400px;
+    width: 400px;
+    background-color: var(--color_blue);
+    border-radius: 40px;
+    margin-block: 8vh;
+    background-image: url(./image/Justin\ Bieber\ -\ March\ 1\,\ 1994.jfif);
+    background-size: cover;
+}
+.imag_exemple_5 p{
+    margin: 40px;
+    
+}
+.imag_exemple_6{
+    height: 400px;
+    width: 400px;
+    background-color: var(--color_blue);
+    border-radius: 40px;
+    margin-block: 8vh;
+    background-image: url(./image/Ariana\ Grande\ Misses\ 2018\ Emmys\,\ Takes\ _Time\ to\ Heal_\ After\ Mac\ Miller);
+    background-size: cover;
+}
+.imag_exemple_6 p{
     margin: 40px;
     
 }
@@ -283,5 +324,6 @@ p{
         margin-left: 25px;
        
     }
+   
     
 }
